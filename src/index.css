@@ -17,3 +17,24 @@ body {
 .auth-form button {
   padding: 0.5rem 1rem;
 }
+.auth-form h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #f32b08;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.auth-form {
+  background: #e2d8d8;
+  padding: 3rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 6px 8px rgba(196, 49, 49, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.auth-form img.cherry {
+  width: 100px;
+  height: auto;
+}

@@ -35,6 +35,8 @@ export default function AuthForm({ onAuth }) {
 
   return (
     <div className="auth-form">
+      <img src="/images/cherry_symbol.png" alt="Slotsify-Cherry" className='cherry'/>
+      <h1>Welcome to Slotsify</h1>
       <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
       <form onSubmit={handleSubmit}>
         {isLogin ? null : (
