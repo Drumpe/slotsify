@@ -32,7 +32,7 @@ export async function handler(event) {
   if (profileError && profileError.code === 'PGRST116') {
     const { data: newProfile, error: insertError } = await supabase
       .from('profiles')
-      .insert([{ id: user.id, username: '', coins: 100 }])
+      .insert([{ id: user.id, username: '', coins: 1000 }])
       .select()
       .single()
     if (insertError) {
