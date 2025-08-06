@@ -1,4 +1,4 @@
-# Slotsify 🎰
+# Slotsify
 
 Slotsify is a simple online slot machine game built with React and Vite. Users can sign up, log in, and play a slot machine to win coins. The app uses Supabase for authentication and profile storage, and Netlify Functions for secure backend logic.
 
